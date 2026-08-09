@@ -1,83 +1,73 @@
 # 🤖 Artificial Intelligence Chatbot
 
-A Java-based Artificial Intelligence Chatbot designed as a learning assistant for students and beginners.
+A desktop-based **Artificial Intelligence Chatbot** developed using **Java Swing and Java NLP concepts**.  
+The chatbot provides quick answers to commonly asked questions related to programming, databases, AI, Git, and other technical topics.
 
-The chatbot uses a local knowledge base and Natural Language Processing (NLP) techniques to understand user questions and provide educational responses on programming and technology topics.
+## 📌 Project Overview
 
-## 📌 Features
+The Artificial Intelligence Chatbot is designed as a simple educational and technical assistant.
 
-- 🤖 Interactive desktop chatbot
-- 🧠 NLP-based question matching
-- 📚 Knowledge-based responses
-- ⚡ Fast response time
-- 🎨 User-friendly Java Swing interface
-- 💬 Conversational question-and-answer system
-- 📖 Useful for learning and interview preparation
+Users can select a technology category and ask questions. The chatbot processes the user's input using basic NLP techniques and searches its knowledge base to provide a relevant response.
 
-## 🛠️ Technologies Used
+It is useful for:
 
-- Java
-- Java Swing
-- Object-Oriented Programming
-- Natural Language Processing (NLP)
-- HashMap-based Knowledge Base
-- Git
-- GitHub
+- Students learning programming concepts
+- Beginners preparing for technical interviews
+- Quick revision of technical topics
+- Exploring basic AI and NLP concepts
+
+## ✨ Features
+
+- 🤖 Interactive chatbot interface
+- 💬 Question and answer system
+- 🧠 Knowledge-based response system
+- 🔎 Basic Natural Language Processing
+- 📚 100+ technical FAQs
+- 🖥️ Java Swing graphical user interface
+- 🎨 Modern dark-themed interface
+- ⚡ Fast responses
+- 📂 Organized knowledge base
+- 🖼️ Project logo and screenshots
 
 ## 📚 Topics Covered
 
-The chatbot currently provides information about:
+### ☕ Java
+- Java Basics
+- OOP Concepts
+- Strings
+- Exception Handling
+- Threads
+- Collections
+- Method Overloading
+- Method Overriding
+- Interview Questions
 
-- ☕ Java
-- 🌐 HTML
-- 🎨 CSS
-- 🗄️ SQL
-- 🤖 Artificial Intelligence
-- 🔧 Git & GitHub
+### 🌐 HTML
+- HTML Tags
+- HTML Tables
+- Forms
+- Basic HTML Concepts
 
-### Java
-
-- Java basics
-- Features of Java
-- Advantages of Java
-- JDK
-- JRE
-- JVM
-- OOP concepts
-
-### HTML
-
-- HTML basics
-- HTML tags
-- HTML forms
-- HTML tables
-- HTML lists
-- Semantic tags
-- HTML5
-- HTML interview questions
-
-### CSS
-
-- CSS basics
-- CSS selectors
-- CSS box model
+### 🎨 CSS
+- CSS Selectors
+- Box Model
 - Flexbox
-- CSS Grid
-- CSS positions
-- CSS animations
-- CSS interview questions
+- Grid
+- Positions
+- Animations
+- Interview Questions
 
-### SQL
+### 🗄️ SQL
+- SQL Basics
+- DDL
+- DML
+- DQL
+- Queries
+- Joins
+- Constraints
+- Interview Questions
 
-- SQL basics
-- SQL commands
-- SQL queries
-- SQL concepts
-- SQL interview questions
-
-### Artificial Intelligence
-
-- AI basics
+### 🧠 Artificial Intelligence
 - Types of AI
 - Machine Learning
 - Deep Learning
@@ -85,47 +75,43 @@ The chatbot currently provides information about:
 - Supervised Learning
 - Unsupervised Learning
 - Reinforcement Learning
-- AI applications
-- Advantages and disadvantages of AI
+- AI Applications
+- Advantages and Disadvantages of AI
 - Future of AI
 - Robotics
-- AI interview questions
+- AI Interview Questions
 
-### Git & GitHub
+### 🔧 Git & GitHub
+- Git Basics
+- Git Commands
+- Repository Concepts
+- GitHub Basics
+- Version Control
+- Interview Questions
 
-- Git basics
-- Git commands
-- GitHub basics
-- Repository concepts
-- Version control concepts
+## 🛠️ Technologies Used
+
+- **Java**
+- **Java Swing**
+- **Java NLP Concepts**
+- **Object-Oriented Programming**
+- **Collections Framework**
+- **Git**
+- **GitHub**
 
 ## 🧠 How It Works
 
-The chatbot follows a simple NLP-based workflow:
-
-1. User enters a question.
-2. The input is cleaned and normalized.
-3. The NLP processor compares the input with available keywords.
-4. The best matching keyword is identified.
-5. The knowledge base retrieves the corresponding answer.
-6. The chatbot displays the response through the Java Swing interface.
-
-## 🏗️ Project Structure
+The chatbot follows a simple processing flow:
 
 ```text
-Artificial-Intelligence-Chatbot/
-│
-├── Main.java
-├── ChatGUI.java
-├── ChatBot.java
-├── KnowledgeBase.java
-├── NLPProcessor.java
-├── Response.java
-├── RoundedPanel.java
-├── Theme.java
-├── README.md
-├── .gitignore
-│
-└── assets/
-    ├── logo.png
-    └── screenshots/
+User Input
+    ↓
+NLP Processing
+    ↓
+Question Matching
+    ↓
+Knowledge Base
+    ↓
+Relevant Response
+    ↓
+Display Response
